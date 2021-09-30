@@ -16,8 +16,8 @@ const io = new Server(server, {
 });
 io.on("connection", (client) => {
   console.log("client connection", client.id);
-  client.on("send-message", (message) => {
-    console.log(message);
+  client.on("send-message", (data) => {
+    io.emit("on-chat", data);
   });
 });
 
