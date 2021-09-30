@@ -1,5 +1,27 @@
 {
+  "name": "chat-realtimechat-realtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john1805/send-email-express.git"
+  },
+  "keywords": [
+    "chat-realtime"
+  ],
+  "author": "john",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john1805/send-email-express/issues"
+  },
+  "homepage": "https://github.com/john1805/send-email-express#readme",
   "dependencies": {
     "socket.io": "^4.2.0"
   }
 }
+

@@ -11,7 +11,7 @@ const server = require("http").Server(app);
 const port = process.env.PORT || 3000;
 const io = new Server(server, {
   cors: {
-    origin: ["http://127.0.0.1:5500"],
+    origin: ["http://127.0.0.1:5500", "https://chat-realtime-01.web.app"],
   },
 });
 io.on("connection", (client) => {

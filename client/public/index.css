@@ -1,0 +1,6 @@
+.mine-chat::marker {
+  text-indent: 0px !important;
+  text-align: end !important;
+  text-align-last: end !important;
+  font-size: 0px;
+}
